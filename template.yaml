@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+   workflow-lambda-functions 
+    Lambda functions to be triggered as part of post-submission workflows. 
+
+Globals:
+    Function:
+        Timeout: 150
+
+Resources:
+    ResizeImageFunction:
+        Type: AWS::Serverless::Function
+        Properties:
+            CodeUri: .
+            Handler: index.resize_image
+            Runtime: nodejs8.10
+            Policies:
+                - AmazonS3FullAccess

@@ -1,0 +1,28 @@
+{
+  "name": "aws-lambda-image-resize",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to resize images present in AWS S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthakj178/aws-lambda-image-resize.git"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "image-resize"
+  ],
+  "author": "Sarthak Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarthakj178/aws-lambda-image-resize/issues"
+  },
+  "homepage": "https://github.com/sarthakj178/aws-lambda-image-resize#readme",
+  "dependencies": {
+    "sharp": "^0.21.3"
+  },
+  "devDependencies": {}
+}
