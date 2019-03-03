@@ -20,5 +20,8 @@ Set the input parameters in test-data/resize_image.json and run
 sam local invoke ResizeImageFunction  --event test-data/resize_image.json 
 ```
 
+# Examples
+* Original Image - examples/images/test.JPG (2.9 MB, 4000x3000)
+* Resized Image - examples/images-compressed/test.JPG (48 KB, 800x600)
 
 
